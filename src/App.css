@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.participant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.participant-card {
+  background-color: grey;
+  margin: 1em;
+}
+
+.participant-card img {
+  filter: grayscale(1);
+  width: 20em;
+  border-bottom: solid white 2px;
+  transition: filter 1s;
+}
+
+.participant-card:hover img {
+  filter: grayscale(0);
+}
+
+.main-header {
+  background: #333;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.main-header h1, .main-header h2 {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.main-header h2 {
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+nav {
+  background-color: #222;
+  padding: 0.5em;
+}
+
+nav a {
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.main-page, .about {
+  font-size: 1.5em;
+  margin: 1em 0 1em 0;
+  background-color: #333;
+  padding: 1em;
+}
+
+.main-page img {
+  width: 10em;
+}
+
+.new-participant-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-participant-page img, .new-participant-page form {
+  width: 30rem;
+}
+
+.new-participant-page form {
+  background: #333;
+  text-align: left;
+  padding: 2em;
+  margin: 2em;
+}
+
+.new-participant-page input[type="text"] {
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: solid white 2px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+
+
