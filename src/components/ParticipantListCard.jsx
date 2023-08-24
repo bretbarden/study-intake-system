@@ -22,10 +22,10 @@ function ParticipantListCard({ participantObj }) {
       <h3> { participantObj.lastName }</h3>
       <p> { participantObj.phone } </p>
       <p> { participantObj.email } </p>
-      <p> { participantObj.birthDate } </p>
+      <p> Birth Date: { participantObj.birthDate } </p>
       <p> { participantObj.gender } </p>
-      <p> { participantObj.studyEntryDate } </p>
-      <p> { participantObj.researchGroup } </p>
+      <p> Study Entry Date: { participantObj.studyEntryDate } </p>
+      <p> { participantObj.researchGroup } Group</p>
       <ParticipantJailStatusButton participantObj={participantObj} inmateData={inmateData} setInmateData={setInmateData} currentInmateId={currentInmateId} setCurrentInmateID={setCurrentInmateId}/>
     </div>
   )

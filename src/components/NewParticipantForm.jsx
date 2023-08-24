@@ -11,8 +11,10 @@ function NewParticipantForm() {
   const [email, setEmail] = useState ("")
   const [birthDate, setBirthDate] = useState ("")
   const [gender, setGender] = useState ("")
+  const [inmateid, setInmateid] = useState("")
   let [studyEntryDate, setStudyEntryDate] = useState ("")
   let [researchGroup, setResearchGroup] = useState ("")
+
 
 
   const handleChangeFirstName = e => setFirstName(e.target.value)
@@ -21,6 +23,7 @@ function NewParticipantForm() {
   const handleChangeEmail= e => setEmail(e.target.value)
   const handleChangeBirthDate = e => setBirthDate(e.target.value)
   const handleChangeGender = e => setGender(e.target.value)
+  const handleChangeInmateID = e => setInmateid(e.target.value)
   // const handleChangeStudyEntryDate = e => setStudyEntryDate(e.target.value)
   // const handleChangeResearchGroup = e => setResearchGroup(e.target.value)
 
@@ -132,6 +135,17 @@ function NewParticipantForm() {
           onChange={handleChangeGender}
           value={gender}
           placeholder='Enter gender'
+        />
+
+        <br/>
+
+
+        <label htmlFor="inmateid">Inmate ID:</label>
+        <input type="text"
+          name="inmateid"
+          onChange={handleChangeInmateID}
+          value={inmateid}
+          placeholder='Enter inmdateid'
         />
 
         <br/>

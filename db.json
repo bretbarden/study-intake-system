@@ -9,7 +9,7 @@
       "birthDate": "2002-01-01T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-01-01T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20197307"
     },
     {
@@ -21,7 +21,7 @@
       "birthDate": "1985-09-20T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-03-15T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20225006"
     },
     {
@@ -33,7 +33,7 @@
       "birthDate": "2001-07-10T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-09-05T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20225006"
     },
     {
@@ -45,7 +45,7 @@
       "birthDate": "1998-03-25T00:00:00",
       "gender": "non-binary",
       "studyEntryDate": "2022-12-10T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20222290"
     },
     {
@@ -69,7 +69,7 @@
       "birthDate": "2002-11-12T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-07-03T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20101802"
     },
     {
@@ -81,7 +81,7 @@
       "birthDate": "2003-04-30T00:00:00",
       "gender": "non-binary",
       "studyEntryDate": "2023-05-10T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "10012992"
     },
     {
@@ -93,7 +93,7 @@
       "birthDate": "1998-08-05T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-09-20T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "7705"
     },
     {
@@ -105,7 +105,7 @@
       "birthDate": "2001-03-15T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-02-02T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": ""
     },
     {
@@ -117,7 +117,7 @@
       "birthDate": "1999-06-25T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-12-18T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "127094"
     },
     {
@@ -129,7 +129,7 @@
       "birthDate": "2003-02-14T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-08-18T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20046959"
     },
     {
@@ -141,7 +141,7 @@
       "birthDate": "2002-10-03T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-04-20T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20222946"
     },
     {
@@ -153,7 +153,7 @@
       "birthDate": "2001-01-10T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-06-15T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": ""
     },
     {
@@ -165,7 +165,7 @@
       "birthDate": "1999-10-18T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-11-15T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20139641"
     },
     {
@@ -177,7 +177,7 @@
       "birthDate": "1998-05-25T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-12-20T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20214887"
     },
     {
@@ -189,7 +189,7 @@
       "birthDate": "2002-09-12T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-07-05T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20115007"
     },
     {
@@ -201,7 +201,7 @@
       "birthDate": "2003-06-20T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-08-10T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20224102"
     },
     {
@@ -213,7 +213,7 @@
       "birthDate": "2000-03-18T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-10-15T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20163675"
     },
     {
@@ -225,7 +225,7 @@
       "birthDate": "1999-09-05T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-03-10T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20009533"
     },
     {
@@ -237,7 +237,7 @@
       "birthDate": "1998-07-20T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-12-05T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20144150"
     },
     {
@@ -249,7 +249,7 @@
       "birthDate": "2003-09-12T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-07-05T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "154184"
     },
     {
@@ -261,7 +261,7 @@
       "birthDate": "2001-04-18T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-11-15T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20176903"
     },
     {
@@ -273,7 +273,7 @@
       "birthDate": "1999-12-25T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-02-20T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20222453"
     },
     {
@@ -285,7 +285,7 @@
       "birthDate": "2002-08-12T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-06-03T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": ""
     },
     {
@@ -297,7 +297,7 @@
       "birthDate": "1998-04-05T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-09-18T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20009184"
     },
     {
@@ -309,7 +309,7 @@
       "birthDate": "2000-11-15T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-10-20T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "75766"
     },
     {
@@ -321,7 +321,7 @@
       "birthDate": "1999-07-05T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-03-10T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20082620"
     },
     {
@@ -333,7 +333,7 @@
       "birthDate": "1998-02-20T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-04-05T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "34632"
     },
     {
@@ -345,7 +345,7 @@
       "birthDate": "2003-10-12T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-07-15T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "47766"
     },
     {
@@ -357,7 +357,7 @@
       "birthDate": "2001-05-18T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-08-10T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20195855"
     },
     {
@@ -369,7 +369,7 @@
       "birthDate": "1999-11-25T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-01-20T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20180091"
     },
     {
@@ -381,7 +381,7 @@
       "birthDate": "2002-07-12T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-10-03T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "135434"
     },
     {
@@ -393,7 +393,7 @@
       "birthDate": "1998-01-05T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-12-18T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20204447"
     },
     {
@@ -405,7 +405,7 @@
       "birthDate": "2000-09-15T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-02-10T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "132664"
     },
     {
@@ -417,7 +417,7 @@
       "birthDate": "1999-04-05T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-03-18T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20081101"
     },
     {
@@ -429,7 +429,7 @@
       "birthDate": "2003-12-10T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-06-25T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20209104"
     },
     {
@@ -441,7 +441,7 @@
       "birthDate": "2001-03-15T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-09-02T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20099816"
     },
     {
@@ -453,7 +453,7 @@
       "birthDate": "2002-10-18T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-12-10T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20135538"
     },
     {
@@ -465,7 +465,7 @@
       "birthDate": "1999-08-25T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-11-20T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20217855"
     },
     {
@@ -477,7 +477,7 @@
       "birthDate": "2002-04-12T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-07-03T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20221940"
     },
     {
@@ -489,7 +489,7 @@
       "birthDate": "2003-01-10T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-06-15T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20224855"
     },
     {
@@ -501,7 +501,7 @@
       "birthDate": "2002-10-03T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-04-20T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "857"
     },
     {
@@ -513,7 +513,7 @@
       "birthDate": "2001-07-10T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-09-05T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "15474"
     },
     {
@@ -525,7 +525,7 @@
       "birthDate": "1999-12-25T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-11-20T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "20104111"
     },
     {
@@ -537,7 +537,7 @@
       "birthDate": "1998-08-12T00:00:00",
       "gender": "male",
       "studyEntryDate": "2022-12-03T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": ""
     },
     {
@@ -572,7 +572,7 @@
       "birthDate": "2002-11-18T00:00:00",
       "gender": "female",
       "studyEntryDate": "2022-12-15T00:00:00",
-      "researchGroup": "Control", 
+      "researchGroup": "Control",
       "inmateid": "41033"
     },
     {
@@ -584,7 +584,7 @@
       "birthDate": "1999-10-25T00:00:00",
       "gender": "male",
       "studyEntryDate": "2023-01-20T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "113721"
     },
     {
@@ -596,7 +596,7 @@
       "birthDate": "2003-02-14T00:00:00",
       "gender": "female",
       "studyEntryDate": "2023-08-18T00:00:00",
-      "researchGroup": "Program", 
+      "researchGroup": "Program",
       "inmateid": "20225937"
     },
     {
@@ -608,8 +608,19 @@
       "gender": "male",
       "studyEntryDate": "2023-08-21T15:17:32",
       "researchGroup": "Program",
-      "id": 51, 
+      "id": 51,
       "inmateid": ""
+    },
+    {
+      "firstName": "Jenna",
+      "lastName": "Malroney",
+      "phone": "2123459385",
+      "email": "jennamRuralJuror@gmail.com",
+      "birthDate": "12/18/2009",
+      "gender": "Female",
+      "studyEntryDate": "2023-08-24T12:41:05",
+      "researchGroup": "Program",
+      "id": 52
     }
   ]
 }

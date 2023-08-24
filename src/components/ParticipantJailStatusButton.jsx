@@ -21,19 +21,36 @@ function ParticipantJailStatusButton( { inmateData, setInmateData, currentInmate
         }
     };
     
-    
-    
     return (
         <div>
-            <button onClick={handleFetchData}>Fetch Data</button>
+            <button onClick={handleFetchData}>Check Incarceration Status</button>
             {inmateData && (
                 <div>
-                <h2>Inmate Information</h2>
-                <pre>{JSON.stringify(inmateData, null, 2)}</pre>
+                    <h2>Incarceration Status</h2>
+                    <ul>
+                        {Object.keys(inmateData).map((key) => (
+                            <li key={key}>
+                                <strong>{key}:</strong> {inmateData[key]}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             )}
         </div>
     );
+    
+//     return (
+//         <div>
+//             <button onClick={handleFetchData}>Check Incarceration Status</button>
+//             {inmateData && (
+//                 <div>
+//                 <h2>Incarceration Status</h2>
+//                 <pre>{JSON.stringify(inmateData, null, 2)}</pre>
+//                 </div>
+//             )}
+//         </div>
+//     );
+
 }
       
 
