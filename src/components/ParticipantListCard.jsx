@@ -1,10 +1,17 @@
 import { useNavigate } from 'react-router-dom'
+import {useState} from 'react'
 import placeholder from '../assets/participant-placeholder.png'
+import ParticipantJailStatus  from './ParticipantJailStatus'
+import ParticipantJailStatusButton  from './ParticipantJailStatusButton'
 
 function ParticipantListCard({ participantObj }) {
 
   const navigate = useNavigate()
 
+  // Set states for the cards of who is selected
+  const [inmateData, setInmateData] = useState(null);
+  const [currentInmateId, setCurrentInmateId] = useState('');
+  
 
 
   return (
@@ -19,6 +26,7 @@ function ParticipantListCard({ participantObj }) {
       <p> { participantObj.gender } </p>
       <p> { participantObj.studyEntryDate } </p>
       <p> { participantObj.researchGroup } </p>
+      <ParticipantJailStatusButton participantObj={participantObj} inmateData={inmateData} setInmateData={setInmateData} currentInmateId={currentInmateId} setCurrentInmateID={setCurrentInmateId}/>
     </div>
   )
 

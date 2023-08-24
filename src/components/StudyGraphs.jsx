@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import { Line, Bar } from 'react-chartjs-2';
-import axios from 'axios';
 import {
   Chart as ChartJS,
   LineElement,
@@ -25,16 +24,6 @@ ChartJS.register(
 
 const StudyGraphs = () => {
   const [data, setData] = useState([]);
-
-  // useEffect(() => {
-  //   axios.get('http://localhost:5000/participants')
-  //     .then(response => {
-  //       setData(response.data);
-  //     })
-  //     .catch(error => {
-  //       console.error('Error fetching data:', error);
-  //     });
-  // }, []);
 
 
   useEffect(() => {
@@ -131,9 +120,11 @@ const StudyGraphs = () => {
   return (
     <div>
       <div>
+        <h2> Cumulative Study Enrollment</h2>
         <Bar data={barData} options={options} />
       </div>
       <div>
+        <h2> Monthly Study Enrollment</h2>
         <Line data={lineData} options={options} />
       </div>
     </div>
