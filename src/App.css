@@ -155,21 +155,6 @@ body {
   border-bottom: solid #555 1px; /* Adjusted border thickness */
   transition: filter 0.5s;
 }
-/* 
-
-.participant-card {
-  background-color: #fff;
-  margin: 1em;
-  padding: 1.5em;
-  border-radius: 15px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-
-.participant-card img {
-  width: 18em;
-  border-bottom: solid #555 2px;
-  transition: filter 0.5s;
-} */
 
 .participant-card:hover img {
   filter: grayscale(0);

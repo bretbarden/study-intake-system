@@ -4,7 +4,6 @@ import './index.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-// Components
 import App from './components/App';
 import MainPage from './components/MainPage';
 import About from './components/About';
@@ -15,7 +14,6 @@ import ParticipantPage from './components/ParticipantPage';
 import EnrollmentTrends from './components/EnrollmentTrends';
 
 
-// Loaders
 import { getParticipantsLoader, singleParticipantLoader} from './loaders'
 
 

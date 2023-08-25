@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 
 
-function ParticipantJailStatusButton( { inmateData, setInmateData, currentInmateId, setCurrentInmateId, participantObj}) {
+function ParticipantJailStatusButton( { inmateData, setInmateData, currentInmateId, participantObj}) {
 
     
     // In the fetch, use if/then logic so that it doesn't fetch if there is no inmateId
@@ -39,18 +38,6 @@ function ParticipantJailStatusButton( { inmateData, setInmateData, currentInmate
         </div>
     );
     
-//     return (
-//         <div>
-//             <button onClick={handleFetchData}>Check Incarceration Status</button>
-//             {inmateData && (
-//                 <div>
-//                 <h2>Incarceration Status</h2>
-//                 <pre>{JSON.stringify(inmateData, null, 2)}</pre>
-//                 </div>
-//             )}
-//         </div>
-//     );
-
 }
       
 

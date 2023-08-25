@@ -1,97 +1,54 @@
 # Study Intake System
 
-# Background about what this app does
+# Background and Features
+The study intake system is an open source system for enrolling participants into studies.
+
+-When a new participant's information is submitted via the enrollment form, the participant 
+will be randomly assinged to either the program group (who receive the treatment being
+studied) or the control group (who do not receive the treatment but can access other
+resources in the community).
+
+-The search feature allows users to search for a participant in the enrollment roster
+by first or last name. 
+
+-When viewing a participant, you can click the "Check Incarceration Status" to fetch
+data from NYC's Open Data system that will show details about whether the client is
+currently incarcerated in NYC's city jails. This match occurs via an InmateID. The
+information displayed is only the current status and no data from the GET/FETCH to
+NYC OpenData is saved permanently to the local database as this data changes in real-time.
+
+For documentation of the NYC OpenData, please see:
+https://data.cityofnewyork.us/Public-Safety/Daily-Inmates-In-Custody/7479-ugqb
+
+For the direct link to the JSON data in the API please see:
+https://data.cityofnewyork.us/resource/7479-ugqb.json
 
 
+-The "Enrollment Trends" section allows the user to view graphs of study enrollment
+including a monthly bar graph and a cumulative line graph.
 
-App
-Header with NavBar
-Initial landing page (maybe with photo of some place)
-Add a new study participant
-|--> Randomization button
-|--> Random assignment outcome page
-Roster screen
-|---> Search Bar
-|---> Client details Page
+Note to users: The dependencies should install compatible versions of chart from React
+but if you are using a newer version of React than version 18, you may need to set
+your version of React to 18 in order for the 
 
 
+# To run the application:
+- In the project directory, first run `npm isntall` to install dependencies.
+- Next, in a separate terminal in the same directory, run `npm run server` to initiate
+the JSON database where study participants are saved.
+-In the first terminal, then run `npm start` and you should be good to go.
 
+# GitHub Link:
+https://github.com/vicambulist/study-intake-system
 
+# Attributions:
+-Some of the basic code/styling was repurposed from Flatiron labs
 
+# Future features to be added:
+-Login feature
+-Additional changes to CSS
+-A feature that for the control group, shows local resources for the client
+-A feature that for the program group, takes in client goals and connects to 
+OpenAI's ChatGPT to provide recommendations of types of services that might
+best benefit the client
 
-
-
-
-
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
