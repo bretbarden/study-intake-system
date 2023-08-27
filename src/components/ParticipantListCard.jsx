@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import {useState} from 'react'
 import placeholder from '../assets/participant-placeholder.png'
-import ParticipantJailStatus  from './ParticipantJailStatus'
 import ParticipantJailStatusButton  from './ParticipantJailStatusButton'
 
 function ParticipantListCard({ participantObj }) {

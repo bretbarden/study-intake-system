@@ -632,6 +632,17 @@
       "studyEntryDate": "2023-08-24T13:44:01",
       "researchGroup": "Program",
       "id": 53
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Kopsic",
+      "phone": "2123950489",
+      "email": "icanbeinstudyyes@gmail.com",
+      "birthDate": "12/09/1981",
+      "gender": "Female",
+      "studyEntryDate": "2023-08-26T12:28:51",
+      "researchGroup": "Program",
+      "id": 54
     }
   ]
 }
