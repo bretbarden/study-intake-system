@@ -120,11 +120,11 @@ const StudyGraphs = () => {
   return (
     <div>
       <div>
-        <h2> Cumulative Study Enrollment</h2>
+        <h2> Monthly Study Enrollment</h2>
         <Bar data={barData} options={options} />
       </div>
       <div>
-        <h2> Monthly Study Enrollment</h2>
+        <h2> Cumulative Study Enrollment</h2>
         <Line data={lineData} options={options} />
       </div>
     </div>
