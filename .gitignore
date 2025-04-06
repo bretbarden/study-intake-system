@@ -1,3 +1,31 @@
-node_modules
-node_modules
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+.next/
+out/
+
+# temporary/cache
+.cache/
+tmp/
+temp/
+*.log
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# code editor
 .qodo
