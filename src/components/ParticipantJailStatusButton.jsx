@@ -14,7 +14,7 @@ function ParticipantJailStatusButton( { inmateData, setInmateData, currentInmate
         try {
         const response = await fetch(`https://data.cityofnewyork.us/resource/7479-ugqb.json?inmateid=${participantObj.inmateid}&$$app_token=521Ni3NMNKgfdeYfAhkt5Uj0M`);
         const data = await response.json();
-        setInmateData(data[0]); // Assuming the API returns an array with one matching inmate. If it does not, will need to modify this line.
+        setInmateData(data[0]); 
         } catch (error) {
         console.error('Error in fetch:', error);
         }
